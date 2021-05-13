@@ -56,6 +56,82 @@ const Users = [
   },
 ];
 
+const FoodTypes = {
+  FRUITS: "fruits",
+  GRAINS: "grains",
+  SEEDS: "seeds",
+  HERBS: "herbs",
+  LEGUMES: "legumes",
+  DAIRY: "dairy",
+  EGGS: "eggs",
+  VEGETABLES: "vegetables",
+  FUNGI: "fungi",
+};
+
+const Months = {
+  JAN: 1,
+  FEB: 2,
+  MAR: 3,
+  APR: 4,
+  MAI: 5,
+  JUN: 6,
+  JUL: 7,
+  AUG: 8,
+  SEP: 9,
+  OCT: 10,
+  NOV: 11,
+  DEC: 12,
+};
+
+const Food = [
+  {
+    name: "Carrot",
+    type: FoodTypes.VEGETABLES,
+    harvestSeason: [
+      Months.JUN,
+      Months.JUL,
+      Months.AUG,
+      Months.SEP,
+      Months.OCT,
+      Months.NOV,
+    ],
+    storageSeason: [
+      Months.JAN,
+      Months.FEB,
+      Months.MAR,
+      Months.APRIL,
+      Months.MAI,
+      Months.JUN,
+      Months.JUL,
+      Months.AUG,
+      Months.SEP,
+      Months.OCT,
+      Months.NOV,
+      Months.DEC,
+    ],
+  },
+  {
+    name: "Potato",
+    type: FoodTypes.VEGETABLES,
+    harvestSeason: [Months.JUN, Months.JUL, Months.AUG, Months.SEP, Months.OCT],
+    storageSeason: [
+      Months.JAN,
+      Months.FEB,
+      Months.MAR,
+      Months.APRIL,
+      Months.MAI,
+      Months.JUN,
+      Months.JUL,
+      Months.AUG,
+      Months.SEP,
+      Months.OCT,
+      Months.NOV,
+      Months.DEC,
+    ],
+  },
+];
+
 module.exports = {
   Users,
+  Food,
 };
