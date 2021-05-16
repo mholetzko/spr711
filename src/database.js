@@ -14,7 +14,7 @@ async function startDatabase() {
   //Seed Database
   if (!database) {
     database = connection.db();
-    await database.collection("users").insertMany(data.Users);
+    await database.collection("food").insertMany(data.Food);
   }
 
   return database;

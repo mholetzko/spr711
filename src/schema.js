@@ -2,26 +2,22 @@ const { buildSchema } = require("graphql");
 
 const schema = buildSchema(`
     type Query {
-        users: [User!]!,
-        user(id: Int!): User!
+        month(harvest: Boolean!):[Food]
+        food:[Food]
+        food_by_type(type:String!):[Food]
     }
 
     type Mutation {
-        editUser(id: Int!, name: String!, email: String!): User!
+        addFood(name: String!, type: String!, harvest_season: [String!]!, storage_season:[String!]!): String!
+        removeFood(name: String!): Food!
+        editFood(name: String!, type: String!, harvest_season: [String!]!, storage_season:[String!]!): Food!
     }
 
-    type User {
-        id: ID!
+    type Food {
         name: String!
-        email: String
-        posts: [Post!]
-    }
-
-    type Post {
-        id: ID!
-        title: String!
-        published: Boolean!
-        link: String
+        type: String!
+        harvest_season: [String]
+        storage_season: [String]
     }
 `);
 

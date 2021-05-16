@@ -1,23 +1,47 @@
 const resolvers = {
-  users: async (_, context) => {
+  month: async ({ harvest }, context) => {
     const { db } = await context();
-    return db.collection("users").find().toArray();
+    return db.collection("food").findOne("Carrot").toArray();
   },
-  user: async ({ id }, context) => {
+  food: async (_, context) => {
     const { db } = await context();
-    return db.collection("users").findOne({ id });
+    return db.collection("food").find().toArray();
+  },
+  food_by_type: async ({ type }, context) => {
+    const { db } = await context();
+    return db.collection("food").find().toArray();
   },
   //Mutation resolvers
-  editUser: async ({ id, name, email }, context) => {
+  addFood: async ({ name, type, harvest_season, storage_season }, context) => {
     const { db } = await context();
 
     return db
-      .collection("users")
-      .findOneAndUpdate(
-        { id },
-        { $set: { name, email } },
+      .collection("food")
+      .insertOne(
+        { name },
+        { $set: { type, harvest_season, storage_season } },
         { returnOriginal: false }
       )
+      .then((resp) => String(resp));
+  }, //Mutation resolvers
+  editFood: async ({ name, type, harvest_season, storage_season }, context) => {
+    const { db } = await context();
+
+    return db
+      .collection("food")
+      .findOneAndUpdate(
+        { name },
+        { $set: { type, harvest_season, storage_season } },
+        { returnOriginal: false }
+      )
+      .then((resp) => resp.value);
+  },
+  removeFood: async ({ name }, context) => {
+    const { db } = await context();
+
+    return db
+      .collection("food")
+      .findOneAndDelete({ name })
       .then((resp) => resp.value);
   },
 };
