@@ -13,6 +13,8 @@ const context = async () => {
   return { db };
 };
 
+const mongoDbUri = process.env.MONGODB_URI;
+
 const app = express();
 
 app.use(
