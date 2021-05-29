@@ -2,6 +2,7 @@ const resolvers = {
   food_by_month: async ({ month, harvest }, context) => {
     const { db } = await context();
     if (harvest) {
+      console.log(...month);
       return db
         .collection("food")
         .find({ harvest_season: [...month] })
