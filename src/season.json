@@ -1,0 +1,406 @@
+{
+    "Food": [
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Aubergine",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Blumenkohl",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Bohnen gr\u00fcne",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Bohnen dicke",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Brokkoli",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Butterr\u00fcben",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Champignons",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Erbsen",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Fenchel",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'NOV', 'DEC']",
+            "name": "Gr\u00fcnkohl",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Gurke/Salatgurke",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Kartoffeln",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'NOV', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Kohlrabi",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "K\u00fcrbis",
+            "storage_season": "['JAN', 'FEB', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Lauch / Porree",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Lauch-/Fr\u00fchlingszwiebeln",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT']",
+            "name": "Mais",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Mangold",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Karotten",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'NOV', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Paprika",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Pastinaken",
+            "storage_season": "['APR']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Radieschen",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'OCT', 'NOV', 'DEC']",
+            "name": "Rosenkohl",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Rote Bete",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Rotkohl",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'OCT', 'NOV', 'DEC']",
+            "name": "schwarzwurzeln",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['APR', 'MAI', 'JUN']",
+            "name": "spargel",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAR', 'APR', 'MAI', 'SEP', 'OCT', 'NOV']",
+            "name": "spinat",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN']",
+            "name": "spitzkohl",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "staudensellerie",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "steckr\u00fcben",
+            "storage_season": "['JAN', 'FEB', 'MAR']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Tomaten",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'OCT', 'NOV', 'DEC']",
+            "name": "Topinambur",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Wei\u00dfkohl",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Wirsingkohl",
+            "storage_season": "['MAR']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Zucchini",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Zuckerschoten",
+            "storage_season": "[]",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Zwiebeln",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'JUN', 'NOV', 'DEC']",
+            "type": "Vegetable"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Apfel",
+            "storage_season": "['JAN', 'FEB', 'MAR', 'APR', 'MAI', 'DEC']",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG']",
+            "name": "Aprikose",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT']",
+            "name": "Birne",
+            "storage_season": "['NOV', 'DEC']",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP']",
+            "name": "BlaubeerenHeidelbeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP']",
+            "name": "Brombeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL']",
+            "name": "Erdbeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Himbeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['SEP', 'OCT']",
+            "name": "Holunderbeeren/Flieder",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Johannisbeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "Kirschen",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP']",
+            "name": "Mirabellen",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP']",
+            "name": "Pflaumen",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['SEP', 'OCT', 'NOV']",
+            "name": "Quitten",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['APR', 'MAI', 'JUN']",
+            "name": "Rhabarber",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG']",
+            "name": "stachelbeeren",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP']",
+            "name": "Wassermelonen",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['SEP', 'OCT']",
+            "name": "Weintrauben",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Zwetschgen",
+            "storage_season": "[]",
+            "type": "Fruit"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP']",
+            "name": "Batavia",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'APR', 'OCT', 'NOV', 'DEC']",
+            "name": "Chicor\u00e9e",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "EichblattSalat",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "EisbergSalat",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "EndivienSalat",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'APR', 'OCT', 'NOV', 'DEC']",
+            "name": "FeldSalat",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "KopfSalat",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT']",
+            "name": "Lollo Rosso",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['JAN', 'FEB', 'MAR', 'APR', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']",
+            "name": "Portulak",
+            "storage_season": "[]",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['AUG', 'SEP', 'OCT', 'NOV']",
+            "name": "Radicchio",
+            "storage_season": "['JAN', 'FEB', 'DEC']",
+            "type": "Salat"
+        },
+        {
+            "harvest_season": "['APR', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP']",
+            "name": "Rucola",
+            "storage_season": "[]",
+            "type": "Salat"
+        }
+    ]
+}
