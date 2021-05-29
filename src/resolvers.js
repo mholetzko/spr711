@@ -19,7 +19,7 @@ const resolvers = {
   },
   food_by_type: async ({ food_type }, context) => {
     const { db } = await context();
-    return db.collection("food").find({ type: foodType }).toArray();
+    return db.collection("food").find({ type: food_type }).toArray();
   },
   //Mutation resolvers
   addFood: async ({ name, type, harvest_season, storage_season }, context) => {
