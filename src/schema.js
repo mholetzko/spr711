@@ -2,7 +2,7 @@ const { buildSchema } = require("graphql");
 
 const schema = buildSchema(`
     type Query {
-        month(harvest: Boolean!):[Food]
+        food_by_month(month:[String!],!harvest: Boolean!):[Food]
         food:[Food]
         food_by_type(type:String!):[Food]
     }

@@ -1,15 +1,25 @@
 const resolvers = {
-  month: async ({ harvest }, context) => {
+  food_by_month: async ({ month, harvest }, context) => {
     const { db } = await context();
-    return db.collection("food").findOne("Carrot").toArray();
+    if (harvest) {
+      return db
+        .collection("food")
+        .find({ harvest_season: [...month] })
+        .toArray();
+    } else {
+      return db
+        .collection("food")
+        .find({ storage_season: [...month] })
+        .toArray();
+    }
   },
   food: async (_, context) => {
     const { db } = await context();
     return db.collection("food").find().toArray();
   },
-  food_by_type: async ({ type }, context) => {
+  food_by_type: async ({ foodType }, context) => {
     const { db } = await context();
-    return db.collection("food").find().toArray();
+    return db.collection("food").find({ type: foodType }).toArray();
   },
   //Mutation resolvers
   addFood: async ({ name, type, harvest_season, storage_season }, context) => {
