@@ -17,7 +17,7 @@ const resolvers = {
     const { db } = await context();
     return db.collection("food").find().toArray();
   },
-  food_by_type: async ({ foodType }, context) => {
+  food_by_type: async ({ food_type }, context) => {
     const { db } = await context();
     return db.collection("food").find({ type: foodType }).toArray();
   },

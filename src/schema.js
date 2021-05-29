@@ -4,7 +4,7 @@ const schema = buildSchema(`
     type Query {
         food_by_month(month:[String!],!harvest: Boolean!):[Food]
         food:[Food]
-        food_by_type(type:String!):[Food]
+        food_by_type(food_type:String!):[Food]
     }
 
     type Mutation {
