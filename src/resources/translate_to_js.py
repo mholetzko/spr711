@@ -67,8 +67,8 @@ def dump_to_dict(inp: List[Entry]) -> None:
         dict = {
             "name": f"{entry.name}",
             "type": f"{entry.type}",
-            "harvest_season": f"{entry.harvest}",
-            "storage_season": f"{entry.storage}",
+            "harvest_season": entry.harvest,
+            "storage_season": entry.storage,
         }
         food_list["Food"].append(dict)
     with OUT_JSON_PATH.open("w") as od:
