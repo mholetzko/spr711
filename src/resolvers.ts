@@ -1,7 +1,7 @@
 import { Context } from "./context";
 
-import { Query, Resolver, Mutation, Arg, Ctx } from "type-graphql";
-import { FoodType } from "./schema";
+import { Query, Resolver, Mutation, Arg, Ctx, Args } from "type-graphql";
+import { FoodType, FoodInputArgs } from "./schema";
 
 @Resolver((of) => FoodType)
 export class FoodResolver {
@@ -22,7 +22,7 @@ export class FoodResolver {
   async food_by_month(
     @Ctx() ctx: Context,
     @Arg("month", (type) => [String]) month: [string],
-    @Arg("harvest") harvest: boolean
+    @Arg("harvest", { defaultValue: true }) harvest: boolean
   ) {
     await ctx.getDb();
     if (harvest) {
@@ -37,5 +37,29 @@ export class FoodResolver {
         .find({ storage_season: { $all: month } })
         .toArray();
     }
+  }
+
+  @Mutation((returns) => String)
+  async addFood(
+    @Ctx() ctx: Context,
+    @Args() { name, type, harvest_season, storage_season }: FoodInputArgs
+  ) {
+    await ctx.getDb();
+  }
+
+  @Mutation((returns) => [FoodType])
+  async editFood(
+    @Ctx() ctx: Context,
+    @Args() { name, type, harvest_season, storage_season }: FoodInputArgs
+  ) {
+    await ctx.getDb();
+  }
+
+  @Mutation((returns) => [FoodType])
+  async removeFood(
+    @Ctx() ctx: Context,
+    @Arg("name", (type) => [String]) name: [string]
+  ) {
+    await ctx.getDb();
   }
 }

@@ -1,4 +1,5 @@
 import "reflect-metadata";
+import cors from "cors";
 import * as path from "path";
 import { buildSchema } from "type-graphql";
 import express from "express";
@@ -20,7 +21,7 @@ async function bootstrap() {
   });
 
   console.log(schema);
-
+  app.use(cors());
   app.use(
     "/srp_api",
     graphqlHTTP({
