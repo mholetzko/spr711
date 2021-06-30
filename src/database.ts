@@ -12,7 +12,11 @@ async function startDatabase() {
   //Seed Database
   if (!database) {
     database = connection.db();
-    await database.collection("food").insertMany(data.Food);
+    let dbContent: [any] = database.collection("food").find().toArray();
+    if (dbContent.length > 0) {
+      //preset the db, otherwise just get the connection
+      await database.collection("food").insertMany(data.Food);
+    }
   }
   return database;
 }
