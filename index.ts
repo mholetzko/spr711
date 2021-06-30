@@ -20,7 +20,6 @@ async function bootstrap() {
     emitSchemaFile: path.resolve(__dirname, "schema.gql"),
   });
 
-  console.log(schema);
   app.use(cors());
   app.use(
     "/srp_api",
